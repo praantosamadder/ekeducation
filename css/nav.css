@@ -68,10 +68,28 @@ nav {
     background-repeat: no-repeat;
 }
 
-.ke {
-    height: 100px;
+.block-a {
+    height: 700px;
     width: 100%;
-    background-color: blue;
+    background-color: black;
+}
+
+.block-b {
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+}
+
+.block-c {
+    height: 700px;
+    width: 100%;
+    background-color: purple;
+}
+
+.block-d {
+    height: 700px;
+    width: 100%;
+    background-color: peru;
 }
 
 @media screen and (max-width: 768px) {

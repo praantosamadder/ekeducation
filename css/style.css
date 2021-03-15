@@ -32,3 +32,9 @@ h2 {
 h3 {
     font-family: "Libre Baskerville", sans-serif;
 }
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: wheat;
+}
