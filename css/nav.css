@@ -39,7 +39,7 @@ nav {
 
     /* The following CSS enables Full Screen Menu */
     height: 100vh;
-    width: 100%;
+    width: 0%;
     top: 0;
     left: 0;
     z-index: 2;
@@ -49,6 +49,7 @@ nav {
 
 .slide-menu-in {
     transform: translateX(0%);
+    width: 100%;
     transition: 0.2s;
 }
 
