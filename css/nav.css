@@ -13,26 +13,6 @@ nav {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-#hamburger-icon {
-    height: 50px;
-}
-
-.hamburger-button {
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.3);
-
-    /* Center Hamburger Icon inside div */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.hamburger-button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
-
-
 
 .hero {
     overflow-x: hidden;
