@@ -1,0 +1,89 @@
+nav {
+    height: 8vh;
+    width: 100%;
+}
+
+.desktop-menu {
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#hamburger-icon {
+    height: 50px;
+}
+
+.hamburger-button {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* Center Hamburger Icon inside div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hamburger-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.slide-menu {
+    background-color: rgb(179, 29, 29);
+    cursor: pointer;
+
+    /* The following CSS enables Full Screen Menu */
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: absolute;
+    transform: translateX(100%);
+}
+
+.slide-menu-in {
+    transform: translateX(0%);
+    transition: 0.2s;
+}
+
+.slide-menu-out {
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+.hero {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+    background: url("/img/stock/campus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ke {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-menu {
+        grid-template-columns: 4fr 1fr;
+    }
+
+    .hero {
+        height: 60vh;
+        background-position: center;
+    }
+
+    #hamburger-icon {
+        height: 35px;
+    }
+}
