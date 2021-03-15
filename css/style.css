@@ -12,9 +12,29 @@ html, body {
     background-color: black;
 }
 
-/* *::-webkit-scrollbar {
-    width: 0;
-} */
+.block-a {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+}
+
+.block-b {
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+}
+
+.block-c {
+    height: 700px;
+    width: 100%;
+    background-color: purple;
+}
+
+.block-d {
+    height: 700px;
+    width: 100%;
+    background-color: peru;
+}
 
 .no-display {
     display: none;

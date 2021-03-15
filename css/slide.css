@@ -27,23 +27,29 @@
 
     /* The following CSS enables Full Screen Menu */
     height: 100vh;
-    width: 0;
     top: 0;
     right: 0;
     z-index: 7;
     position: absolute;
-    /* transform: translateX(100%); */
+    transform: translateX(100%);
+}
+
+.slide-menu-full-width {
+    width: 100%;
+}
+
+.slide-menu-no-width {
+    width: 0;
 }
 
 .slide-menu-in {
-    /* transform: translateX(0%); */
-    width: 100%;
-    transition: 0.2s;
+    transform: translateX(0%);
+    transition: 200ms;
 }
 
 .slide-menu-out {
-    width: 0;
-    transition: 0.3s;
+    transform: translateX(100%);
+    transition: 400ms;
 }
 
 .slide-menu-nav {
@@ -51,6 +57,21 @@
     width: 100%;
     color: wheat;
     background-color: blue;
+}
+
+.slide-menu ul {
+    padding-left: 40px;
+}
+
+.slide-menu li {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.slide-menu a {
+    font-size: 40px;
+    font-family: "Libre Baskerville", sans-serif;
+    color: wheat;
 }
 
 
@@ -62,5 +83,9 @@
 
     .hamburger-button span {
         display: none;
+    }
+
+    .slide-menu a {
+        font-size: 20px;
     }
 }
