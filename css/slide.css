@@ -1,16 +1,18 @@
 /* Hamburger CSS */
 #hamburger-icon {
-    height: 50px;
+    width: 70px;
 }
 
 .hamburger-button {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    outline: none;
     cursor: pointer;
+    vertical-align: middle;
+    color: white;
+    font-size: 18px;
     background-color: rgba(0, 0, 0, 0.3);
-
-    /* Center Hamburger Icon inside div */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .hamburger-button:hover {
@@ -49,4 +51,15 @@
     width: 100%;
     color: wheat;
     background-color: blue;
+}
+
+
+@media screen and (max-width: 768px) {
+    #hamburger-icon {
+        width: 60px;
+    }
+
+    .hamburger-button span {
+        display: none;
+    }
 }

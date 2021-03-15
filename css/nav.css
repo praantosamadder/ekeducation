@@ -50,7 +50,7 @@ nav {
 
 @media screen and (max-width: 768px) {
     .desktop-menu {
-        grid-template-columns: 4fr 1fr;
+        grid-template-columns: 2.5fr 1fr;
     }
 
     .hero {
@@ -59,6 +59,6 @@ nav {
     }
 
     #hamburger-icon {
-        height: 35px;
+        height: 40px;
     }
 }
