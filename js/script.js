@@ -26,3 +26,4 @@ function hideSlideMenu() {
     document.documentElement.style.position = "inherit"
 
 }
+

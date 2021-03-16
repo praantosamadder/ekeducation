@@ -31,10 +31,45 @@ nav {
     background-repeat: no-repeat;
 }
 
+.welcome-text {
+    width: 100%;
+    margin-top: 17vh;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(233, 233, 233);
+    text-align: center;
+    line-height: 65px;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    transform: translateY(5vh);
+}
+
+
+.welcome-text h1 {
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 400;
+}
+
+.logo-crest {
+    margin-top: 6vh;
+    height: 140px;
+}
+
 @media screen and (max-width: 1250px) {
     .desktop-menu {
         height: 13vh;
         grid-template-columns: 0.8fr 1fr 0.6fr;
+    }
+    
+    .logo-crest {
+        margin-top: 4vh;
+        height: 120px;
+    }
+
+    .welcome-text {
+        line-height: 65px;
+        margin-top: 14vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
 
@@ -52,6 +87,18 @@ nav {
     
     .logo__image {
         height: 40px;
+    }
+
+    .logo-crest {
+        margin-top: 3vh;
+        height: 75px;
+    }
+
+    .welcome-text {
+        line-height: 35px;
+        margin-top: 14vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
 }
 
