@@ -69,3 +69,21 @@ footer {
     transform: translate(-50%, -50%);
 
 }
+
+@media screen and (max-width: 1250px) {
+    .block-a {
+        height: 80vh;
+    }
+
+    .block-b {
+        height: 50vh;
+    }
+
+    .block-c {
+        height: 70vh;
+    }
+
+    .block-d {
+        height: 60vh;
+    }
+}

@@ -1,10 +1,9 @@
 nav {
-    height: 8vh;
     width: 100%;
 }
 
 .desktop-menu {
-    height: 8vh;
+    height: 12vh;
     display: grid;
     grid-template-columns: 2fr 7fr 1fr;
 }
@@ -30,9 +29,17 @@ nav {
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 1250px) {
+    .desktop-menu {
+        height: 8vh;
+        grid-template-columns: 0.7fr 1fr 0.6fr;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .desktop-menu {
+        height: 9vh;
         grid-template-columns: 1.5fr 0.9fr 0.9fr;
     }
 
@@ -45,3 +52,4 @@ nav {
         height: 40px;
     }
 }
+

@@ -22,7 +22,9 @@
 
 /* Slide Menu CSS */
 .slide-menu {
-    background-color: rgb(44, 44, 44);
+    background: url("../img/stock/grad.png");
+    background-position: center;
+    background-size: cover;
     cursor: pointer;
 
     /* The following CSS enables Full Screen Menu */
@@ -84,6 +86,11 @@
 
     .hamburger-button span {
         display: none;
+    }
+    
+    .slide-menu {
+        background-size: cover;
+        background-position: bottom;
     }
 
     .slide-menu a {
