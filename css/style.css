@@ -8,8 +8,12 @@
 
 html, body {
     overflow-x: hidden;
-    /* background-color: rgb(44, 44, 44); */
-    background-color: black;
+    background-color: rgb(44, 44, 44);
+}
+
+/* Removes scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 .block-a {

@@ -6,11 +6,17 @@ nav {
 .desktop-menu {
     height: 8vh;
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 2fr 7fr 1fr;
 }
 
 .logo {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+}
+
+.logo__image {
+    height: 45px;
 }
 
 
@@ -27,15 +33,15 @@ nav {
 
 @media screen and (max-width: 768px) {
     .desktop-menu {
-        grid-template-columns: 2.5fr 1fr;
+        grid-template-columns: 1.5fr 0.9fr 0.9fr;
     }
 
     .hero {
-        height: 60vh;
+        height: 80vh;
         background-position: center;
     }
-
-    #hamburger-icon {
+    
+    .logo__image {
         height: 40px;
     }
 }

@@ -2,10 +2,12 @@ let hamburgerButton = document.getElementById("hamburger-button")
 let slideMenu = document.getElementById("slide-menu")
 let article = document.getElementById("article")
 let closeMenuButton = document.getElementById("close-menu-button")
+let princetonLogo = document.getElementById("princeton-logo")
+let slideMenu__PrincetonLogo = document.getElementById("slide-menu__princeton-logo")
 
 let isNavBarHidden = true
 
-hamburgerButton.onclick = () => {
+function showSlideMenu() {
     slideMenu.classList.remove("slide-menu-out")
     slideMenu.classList.add("slide-menu-in")
     slideMenu.classList.remove("slide-menu-no-width")
@@ -15,7 +17,7 @@ hamburgerButton.onclick = () => {
     document.documentElement.style.position = "fixed"
 }
 
-closeMenuButton.onclick = () => {
+function hideSlideMenu() {
     slideMenu.classList.remove("slide-menu-in")
     slideMenu.classList.add("slide-menu-out"); article.classList.remove("article-cap-height")
 
@@ -25,5 +27,5 @@ closeMenuButton.onclick = () => {
     
     // Remove fixed position when slide-menu is slid away from view
     document.documentElement.style.position = "inherit"
-}
 
+}

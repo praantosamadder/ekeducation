@@ -32,9 +32,13 @@
         
         <nav>
             <div class="desktop-menu">
-                <div class="logo"></div>
+                <button id="princeton_logo" class="logo">
+                    <img src="./img/icons/logo.svg" class="logo__image">
+                </button>
+
+                <div style="background-color: rgba(0, 0, 0, 0);"></div>
     
-                <button class="hamburger-button" id="hamburger-button">
+                <button class="hamburger-button" id="hamburger-button" onclick="showSlideMenu()">
                     <img id="hamburger-icon" src="./img/icons/hamburger-show.svg">
                 </button>
             </div>
@@ -47,16 +51,21 @@
     <section class="slide-menu slide-menu-no-width" id="slide-menu">
         <nav>
             <div class="desktop-menu">
-                <div class="logo"></div>
+                <button id="slide-menu__princeton-logo" style="background-color: rgba(0, 0, 0, 0.3);" class="logo">
+                    <img src="./img/icons/logo.svg" class="logo__image">
+                </button>
+
+                <div style="background-color: rgba(0, 0, 0, 0.3);"></div>
     
-                <button class="hamburger-button" id="close-menu-button">
+                <button style="background-color: rgba(0, 0, 0, 0.3);" class="hamburger-button" 
+                    id="close-menu-button" onclick="hideSlideMenu()">
                     <img id="hamburger-icon" src="./img/icons/hamburger-close.svg">
                 </button>
             </div>
             
         </nav>
 
-        <ul>
+        <ul style="display: none;">
             <li>
                 <a href="#">Academics</a>
             </li>
