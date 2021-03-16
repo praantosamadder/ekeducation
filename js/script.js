@@ -1,11 +1,4 @@
-let hamburgerButton = document.getElementById("hamburger-button")
 let slideMenu = document.getElementById("slide-menu")
-let article = document.getElementById("article")
-let closeMenuButton = document.getElementById("close-menu-button")
-let princetonLogo = document.getElementById("princeton-logo")
-let slideMenu__PrincetonLogo = document.getElementById("slide-menu__princeton-logo")
-
-let isNavBarHidden = true
 
 function princetonLogo_OnClick() {
     location.href = "https://www.princeton.edu"

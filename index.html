@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Excellence in O/A Level teaching.">
     <title>EkEducation.org | Excellence in O/A Level</title>
-
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
@@ -17,19 +17,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" 
         rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
         rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="./img/icons/fav-alt.png" type="image/png">
     <link rel="preload" href="./img/icons/hamburger-close.svg" as="image" type="svg+xml">
+    <link rel="preload" href="./img/stock/grad-min.png" as="image" type="png">
 </head>
 <body>
 
     <section class="hero">
-        
         <nav>
             <div class="desktop-menu">
                 <button id="princeton_logo" class="logo" onclick="princetonLogo_OnClick()">
@@ -38,6 +36,7 @@
 
                 <div style="background-color: rgba(0, 0, 0, 0);"></div>
     
+                <!-- Show slide menu button: Right side of nav -->
                 <button class="hamburger-button" id="hamburger-button" onclick="showSlideMenu()">
                     <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/hamburger-show.svg">
                 </button>
@@ -50,39 +49,24 @@
 
     <section class="slide-menu slide-menu-no-width" id="slide-menu">
         <nav>
-            <div class="desktop-menu">
+            <div class="slide-menu__nav">
+
+                <!-- Close Slide Menu Button: Left side of nav -->
+                <button style="background-color: rgba(0, 0, 0, 0);" class="hamburger-button" 
+                    id="close-menu-button" onclick="hideSlideMenu()">
+                    
+                    <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/menu-hamburger-close.svg">
+                </button>
+                
+                <div style="background-color: rgba(0, 0, 0, 0);"></div>
+                    
                 <button id="slide-menu__princeton-logo" style="background-color: rgba(0, 0, 0, 0);" class="logo">
                     <img src="./img/icons/logo.svg" class="logo__image" onclick="princetonLogo_OnClick()">
                 </button>
 
-                <div style="background-color: rgba(0, 0, 0, 0);"></div>
-    
-                <button style="background-color: rgba(0, 0, 0, 0);" class="hamburger-button" 
-                    id="close-menu-button" onclick="hideSlideMenu()">
-                    
-                    <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/hamburger-close.svg">
-                </button>
             </div>
             
         </nav>
-
-        <ul style="display: none;">
-            <li>
-                <a href="#">Academics</a>
-            </li>
-            <li>
-                <a href="#">Curriculum</a>
-            </li>
-            <li>
-                <a href="#">Faculty</a>
-            </li>
-            <li>
-                <a href="#">Cost & Fees</a>
-            </li>
-            <li>
-                <a href="#">Location</a>
-            </li>
-        </ul>
     </section>
 
     <article id="article">
