@@ -1,6 +1,6 @@
 /* Hamburger CSS */
-#hamburger-icon {
-    width: 75px;
+.hamburger-icon {
+    width: 90px;
 }
 
 .hamburger-button {
@@ -25,7 +25,6 @@
     background: url("../img/stock/grad.png");
     background-position: center;
     background-size: cover;
-    cursor: pointer;
 
     /* The following CSS enables Full Screen Menu */
     height: 100vh;
@@ -79,9 +78,8 @@
 
 @media screen and (max-width: 768px) {
 
-    #hamburger-icon {
-        margin-top: 8px;
-        height: 15px;
+    .hamburger-icon {
+        width: 70px;
     }
 
     .hamburger-button span {

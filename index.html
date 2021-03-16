@@ -32,14 +32,14 @@
         
         <nav>
             <div class="desktop-menu">
-                <button id="princeton_logo" class="logo">
+                <button id="princeton_logo" class="logo" onclick="princetonLogo_OnClick()">
                     <img src="./img/icons/logo.svg" class="logo__image">
                 </button>
 
                 <div style="background-color: rgba(0, 0, 0, 0);"></div>
     
                 <button class="hamburger-button" id="hamburger-button" onclick="showSlideMenu()">
-                    <img id="hamburger-icon" src="./img/icons/hamburger-show.svg">
+                    <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/hamburger-show.svg">
                 </button>
             </div>
             
@@ -52,14 +52,15 @@
         <nav>
             <div class="desktop-menu">
                 <button id="slide-menu__princeton-logo" style="background-color: rgba(0, 0, 0, 0);" class="logo">
-                    <img src="./img/icons/logo.svg" class="logo__image">
+                    <img src="./img/icons/logo.svg" class="logo__image" onclick="princetonLogo_OnClick()">
                 </button>
 
                 <div style="background-color: rgba(0, 0, 0, 0);"></div>
     
                 <button style="background-color: rgba(0, 0, 0, 0);" class="hamburger-button" 
                     id="close-menu-button" onclick="hideSlideMenu()">
-                    <img id="hamburger-icon" src="./img/icons/hamburger-close.svg">
+                    
+                    <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/hamburger-close.svg">
                 </button>
             </div>
             

@@ -7,6 +7,10 @@ let slideMenu__PrincetonLogo = document.getElementById("slide-menu__princeton-lo
 
 let isNavBarHidden = true
 
+function princetonLogo_OnClick() {
+    location.href = "https://www.princeton.edu"
+}
+
 function showSlideMenu() {
     slideMenu.classList.remove("slide-menu-out")
     slideMenu.classList.add("slide-menu-in")

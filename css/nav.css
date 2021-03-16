@@ -3,19 +3,20 @@ nav {
 }
 
 .desktop-menu {
-    height: 12vh;
+    height: 14vh;
     display: grid;
-    grid-template-columns: 2fr 7fr 1fr;
+    grid-template-columns: 2.2fr 7fr 1.3fr;
 }
 
 .logo {
     background-color: rgba(0, 0, 0, 0);
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .logo__image {
-    height: 45px;
+    height: 60px;
 }
 
 
@@ -31,8 +32,8 @@ nav {
 
 @media screen and (max-width: 1250px) {
     .desktop-menu {
-        height: 8vh;
-        grid-template-columns: 0.7fr 1fr 0.6fr;
+        height: 13vh;
+        grid-template-columns: 0.8fr 1fr 0.6fr;
     }
 }
 
