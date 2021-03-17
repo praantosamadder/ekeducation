@@ -5,7 +5,7 @@ nav {
 .desktop-menu {
     height: 14vh;
     display: grid;
-    grid-template-columns: 2.2fr 7fr 1.3fr;
+    grid-template-columns: 2.2fr 7fr 1fr 1.2fr;
 }
 
 
@@ -54,11 +54,12 @@ nav {
     margin-top: 6vh;
     height: 140px;
 }
-/* TabletView */
+
+/* TabletView Landscape */
 @media screen and (max-width: 1250px) {
     .desktop-menu {
         height: 13vh;
-        grid-template-columns: 0.8fr 1fr 0.6fr;
+        grid-template-columns: 0.8fr 1.3fr 0.2fr 0.4fr;
     }
     
     .logo-crest {
@@ -77,11 +78,20 @@ nav {
     }
 }
 
+/* TabletView Portrait */
+@media screen and (max-width: 880px) {
+    .desktop-menu {
+        height: 13vh;
+        grid-template-columns: 0.8fr 1fr 0.3fr 0.5fr;
+    }
+}
+
+
 /* MobileView */
 @media screen and (max-width: 768px) {
     .desktop-menu {
         height: 9vh;
-        grid-template-columns: 1.5fr 0.9fr 0.9fr;
+        grid-template-columns: 1.4fr 0.6fr 0.5fr 0.5fr;
     }
 
     .hero {
