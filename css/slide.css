@@ -84,6 +84,7 @@
     color: white;
 }
 
+
 @media screen and (max-width: 1250px) {
     .slide-menu__nav {
         height: 13vh;
@@ -95,8 +96,13 @@
 @media screen and (max-width: 768px) {
 
     .hamburger-icon {
-        width: 28px;
+        height: 12px;
         content: url("../img/icons/menu-hamburger-alt.svg");
+    }
+
+    .slide-menu__hamburger-icon {
+        height: 14px;
+        content: url("../img/icons/hamburger-close.svg");
     }
 
     .hamburger-button span {
@@ -124,5 +130,8 @@
         outline: none;
         background: rgba(0, 0, 0, 0);
     }
-    
+
+    .line {
+        display: none;
+    }
 }

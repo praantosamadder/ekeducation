@@ -5,6 +5,7 @@
     overflow-x: hidden;
 }
 
+
 html, body {
     width: 100%;
     overflow-x: hidden;
@@ -19,7 +20,7 @@ html, body {
 .block-a {
     height: 700px;
     width: 100%;
-    background-color: black;
+    background-color: olive;
 }
 
 .block-b {

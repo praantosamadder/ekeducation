@@ -23,7 +23,6 @@ nav {
 
 .hero {
     overflow-x: hidden;
-    height: 100vh;
     width: 100%;
     background: black;
     /* background: url("../img/stock/campus.png"); */
@@ -34,18 +33,33 @@ nav {
 
 .welcome-text {
     width: 100%;
-    margin-top: 22vh;
+    margin-top: 17vh;
     margin-bottom: 1vh;
     color: rgb(233, 233, 233);
     text-align: center;
     line-height: 65px;
     padding-left: 13vw;
     padding-right: 13vw;
+    opacity: 100%;
+    transform: translateY(0);
+    animation: slide-up-fade-in 500ms ease-out;
+}
+
+@keyframes slide-up-fade-in {
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translateY(8vh);
+    }
 }
 
 
 .welcome-text h1 {
-    font-family: 'Source Serif Pro', sans-serif;
+    font-family: "Source Serif Pro", sans-serif;
     font-weight: 400;
     overflow-y: hidden;
 }
@@ -53,6 +67,7 @@ nav {
 .logo-crest {
     margin-top: 6vh;
     height: 140px;
+    margin-bottom: 10vh;
 }
 
 /* TabletView Landscape */
@@ -91,11 +106,10 @@ nav {
 @media screen and (max-width: 768px) {
     .desktop-menu {
         height: 9vh;
-        grid-template-columns: 1.4fr 0.6fr 0.5fr 0.5fr;
+        grid-template-columns: 1.4fr 0.6fr 0.3fr 0.6fr;
     }
 
     .hero {
-        height: 80vh;
         background-position: center;
     }
     
@@ -106,6 +120,7 @@ nav {
     .logo-crest {
         margin-top: 3vh;
         height: 75px;
+        margin-bottom: 15vh;
     }
 
     .welcome-text {
