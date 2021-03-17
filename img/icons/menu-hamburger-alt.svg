@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="45" viewBox="0 0 90 45">
-  <g id="menu-hamburger-alt" transform="translate(-988.5 -140.5)">
-    <line id="Line_1" data-name="Line 1" x2="80" transform="translate(993.5 145.5)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="10"/>
-    <line id="Line_2" data-name="Line 2" x2="80" transform="translate(993.5 180.5)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="10"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="38" viewBox="0 0 78 38">
+  <g id="menu-hamburger-alt" transform="translate(-989.5 -141.5)">
+    <line id="Line_1" data-name="Line 1" x2="70" transform="translate(993.5 145.5)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="8"/>
+    <line id="Line_2" data-name="Line 2" x2="70" transform="translate(993.5 175.5)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="8"/>
   </g>
 </svg>
