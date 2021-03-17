@@ -25,7 +25,8 @@ nav {
     overflow-x: hidden;
     height: 100vh;
     width: 100%;
-    background: url("../img/stock/campus.png");
+    background: black;
+    /* background: url("../img/stock/campus.png"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,27 +34,27 @@ nav {
 
 .welcome-text {
     width: 100%;
-    margin-top: 17vh;
-    font-family: 'Work Sans', sans-serif;
+    margin-top: 22vh;
+    margin-bottom: 1vh;
     color: rgb(233, 233, 233);
     text-align: center;
     line-height: 65px;
     padding-left: 13vw;
     padding-right: 13vw;
-    transform: translateY(5vh);
 }
 
 
 .welcome-text h1 {
     font-family: 'Source Serif Pro', sans-serif;
     font-weight: 400;
+    overflow-y: hidden;
 }
 
 .logo-crest {
     margin-top: 6vh;
     height: 140px;
 }
-
+/* TabletView */
 @media screen and (max-width: 1250px) {
     .desktop-menu {
         height: 13vh;
@@ -66,14 +67,17 @@ nav {
     }
 
     .welcome-text {
-        line-height: 65px;
         margin-top: 14vh;
         padding-left: 10vw;
         padding-right: 10vw;
     }
+
+    .welcome-text h1 {
+        line-height: 65px;
+    }
 }
 
-
+/* MobileView */
 @media screen and (max-width: 768px) {
     .desktop-menu {
         height: 9vh;
@@ -96,9 +100,13 @@ nav {
 
     .welcome-text {
         line-height: 35px;
-        margin-top: 14vh;
+        margin-top: 17vh;
         padding-left: 4vw;
         padding-right: 4vw;
+    }
+
+    .welcome-text h1 {
+        line-height: 35px;
     }
 }
 

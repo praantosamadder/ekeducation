@@ -85,7 +85,8 @@
 @media screen and (max-width: 768px) {
 
     .hamburger-icon {
-        width: 70px;
+        width: 28px;
+        content: url("../img/icons/menu-hamburger-alt.svg");
     }
 
     .hamburger-button span {
