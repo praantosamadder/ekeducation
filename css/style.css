@@ -13,15 +13,9 @@ html, body {
 }
 
 /* Removes scrollbar */
-::-webkit-scrollbar {
-    width: 0px;
-}
-
-.block-a {
-    height: 700px;
-    width: 100%;
-    background-color: olive;
-}
+/*::-webkit-scrollbar {*/
+/*    width: 0;*/
+/*}*/
 
 .block-b {
     height: 500px;
@@ -45,18 +39,27 @@ html, body {
     display: none;
 }
 
+h1, h2, h3 {
+    font-family: "Libre Baskerville", sans-serif;
+}
 
 h1 {
-    font-family: "Libre Baskerville", sans-serif;
     font-size: 60px;
 }
 
 h2 {
-    font-family: "Libre Baskerville", sans-serif;
+    font-size: 20px;
 }
 
 h3 {
-    font-family: "Libre Baskerville", sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 footer {
@@ -78,10 +81,6 @@ footer {
         font-size: 50px;
     }
 
-    .block-a {
-        height: 80vh;
-    }
-
     .block-b {
         height: 50vh;
     }
@@ -98,5 +97,6 @@ footer {
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 30px;
+        margin: 0;
     }
 }

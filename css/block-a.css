@@ -1,0 +1,66 @@
+.block-a {
+    width: 100%;
+    background-color: white;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    display: grid;
+    grid-template-columns: 1fr 9fr 7fr 1fr;
+}
+
+.block-a * {
+    padding-top: 5vh;
+}
+
+.block-a__col-1, .block-a__col-2, .block-a__col-3, .block-a__col-4 {
+    margin-bottom: 5vh;
+}
+
+.block-a__col-1 {
+    border: solid 0.5px wheat;
+}
+
+.block-a__col-2 {
+    border: solid 0.5px wheat;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    /* background-color: thistle; */
+    justify-content: center;
+}
+
+.block-a__col-3 {
+    border: solid 0.5px wheat;
+    border-left: none;
+    border-right: none;
+}
+
+.block-a__col-4 {
+    border: solid 0.5px wheat;
+    border-left: none;
+}
+
+.block-a h1 {
+    font-size: 40px;
+    overflow-y: hidden;
+}
+
+.block-a h2 {
+    overflow-y: hidden;
+    line-height: 30px;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    color: rgb(143, 143, 143);
+}
+
+.hitler-img-that-bitch {
+    height: 380px;
+}
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+}

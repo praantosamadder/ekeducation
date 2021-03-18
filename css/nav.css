@@ -25,16 +25,12 @@ nav {
     overflow-x: hidden;
     width: 100%;
     background: black;
-    /* background: url("../img/stock/campus.png"); */
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .welcome-text {
     width: 100%;
     margin-top: 17vh;
-    margin-bottom: 1vh;
     color: rgb(233, 233, 233);
     text-align: center;
     line-height: 65px;
@@ -67,7 +63,7 @@ nav {
 .logo-crest {
     margin-top: 6vh;
     height: 140px;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
 }
 
 /* TabletView Landscape */
