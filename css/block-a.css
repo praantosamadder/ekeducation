@@ -18,7 +18,13 @@
 }
 
 .block-a__col-1 {
+    display: flex;
+    justify-content: center;
     border: solid 0.5px wheat;
+}
+
+.block-a__col-1 * {
+    padding: 0;
 }
 
 .block-a__col-2 {
