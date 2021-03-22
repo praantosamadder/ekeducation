@@ -18,7 +18,6 @@ html, body {
 /*}*/
 
 .block-b {
-    height: 500px;
     width: 100%;
     background-color: beige;
 }
@@ -79,10 +78,6 @@ footer {
     h1 {
         font-family: "Libre Baskerville", sans-serif;
         font-size: 50px;
-    }
-
-    .block-b {
-        height: 50vh;
     }
 
     .block-c {

@@ -1,0 +1,47 @@
+.block-b {
+    width: 100%;
+    background-color: #202020;
+    display: grid;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    grid-template-columns: 0.7fr 20fr 1.3fr;
+}
+
+.block-b * {
+    overflow-y: hidden;
+}
+
+.block-b h1 {
+    font-size: 40px;
+    color: ivory;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.block-b__col-3 {
+    border-left: solid 0.5px wheat;   
+}
+
+.carousel__slide-1 {
+    height: 550px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 100fr 40fr;
+}
+
+#goebells {
+    height: 300px;
+}
+
+.carousel__text {
+    background-color: blue;
+    z-index: 3;
+    bottom: 0;
+}
+
+.carousel__slide-1 h2 {
+    width: 100%;
+    color: ivory;
+}
