@@ -18,30 +18,80 @@
     padding-bottom: 5vh;
 }
 
+.block-b h3 {
+    color: ivory;
+    font-size: 20px;
+}
+
 .block-b__col-3 {
     border-left: solid 0.5px wheat;   
 }
 
-.carousel__slide-1 {
-    height: 550px;
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    display: grid;
-    grid-template-rows: 100fr 40fr;
+iframe {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 600px;
 }
 
-#goebells {
-    height: 300px;
+.carousel__card {
+    width: 310px;
+    background: #414141;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.goebells {
+    width: 300px;
+    margin-top: 5px;
 }
 
 .carousel__text {
     background-color: blue;
-    z-index: 3;
     bottom: 0;
 }
 
-.carousel__slide-1 h2 {
+.carousel-no-bootstrap {
+    height: 500px;
+}
+
+.carousel__card h2 {
     width: 100%;
     color: ivory;
+}
+
+.carousel__card h3 {
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .block-b h1 {
+        font-size: 25px;
+        padding-left: 5vw;
+    }
+
+    .block-b h2 {
+
+    }
+
+    .block-b h3 {
+        color: ivory;
+    }
+
+    .block-b {
+        grid-template-columns: none;
+    }
+
+    .block-b__col-1 {
+        display: none;
+    }
+    
+    .block-b__col-3 {
+        display: none;
+    }
+    
 }

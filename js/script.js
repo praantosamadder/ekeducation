@@ -27,3 +27,28 @@ function hideSlideMenu() {
 
 }
 
+// var elem = document.querySelector('.main-carousel');
+// var flkty = new Flickity( elem, {
+//     // options
+//     cellAlign: 'left',
+//     contain: true
+// });
+//
+// // element argument can be a selector string
+// //   for an individual element
+// var flkty = new Flickity( '.main-carousel', {
+//     // options
+// });
+
+let elem = document.querySelector(".carousel-no-bootstrap")
+new Flickity(elem, {
+    cellAlign: "left",
+    contain: true,
+    prevNextButtons: false,
+    pageDots: false
+})
+
+let a = document.querySelectorAll(".flickity-viewport")
+for(let i=0; i< a.length; i++){
+    a[i].style.height = "inherit"
+}
