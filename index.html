@@ -32,9 +32,9 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
@@ -44,102 +44,103 @@
     <link rel="preload" href="./img/stock/grad-min.png" as="image" type="png">
 </head>
 <body>
+<section class="hero">
+    <nav>
+        <div class="desktop-menu">
+            <button id="princeton_logo" class="logo" onclick="princetonLogo_OnClick()">
+                <img src="./img/icons/logo.svg" class="logo__image"
+                     alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/logo.svg">
+            </button>
 
-    <section class="hero">
-        <nav>
-            <div class="desktop-menu">
-                <button id="princeton_logo" class="logo" onclick="princetonLogo_OnClick()">
-                    <img src="./img/icons/logo.svg" class="logo__image"
-                         alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/logo.svg">
-                </button>
+            <div style="background-color: rgba(0, 0, 0, 0);"></div>
 
-                <div style="background-color: rgba(0, 0, 0, 0);"></div>
+            <button class="switch-to-bengali">
+                বাংলা
+            </button>
 
-                <button class="switch-to-bengali">
-                    বাংলা
-                </button>
-    
-                <!-- Show slide menu button: Right side of nav -->
-                <button class="hamburger-button" id="hamburger-button" onclick="showSlideMenu()">
-                    <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/hamburger-show.svg"
-                         alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/hamburger-show.svg">
-                </button>
-            </div>
-        </nav>
-
-        <div class="welcome-text">
-            <h1>Als Holocaust wird heute zumeist der nationalsozialistische Völkermord an 5,6 bis 6,3 Millionen europäischen Juden bezeichnet. </h1>
-
-            <img class="logo-crest" src="./img/icons/logo-crest.svg"
-                 alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/logo-crest.svg">
+            <!-- Show slide menu button: Right side of nav -->
+            <button class="hamburger-button" id="hamburger-button" onclick="showSlideMenu()">
+                <img id="hamburger-icon" class="hamburger-icon" src="./img/icons/hamburger-show.svg"
+                     alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/hamburger-show.svg">
+            </button>
         </div>
-    </section>
+    </nav>
 
-    <!-- Slide Menu -->
-    <section class="slide-menu slide-menu-no-width" id="slide-menu">
-        <nav>
-            <div class="slide-menu__nav">
-                <!-- Close Slide Menu Button: Left side of nav -->
-                <button style="background-color: rgba(0, 0, 0, 0);" class="hamburger-button" 
+    <div class="welcome-text">
+        <h1>Als Holocaust wird heute zumeist der nationalsozialistische Völkermord an 5,6 bis 6,3 Millionen europäischen Juden bezeichnet. </h1>
+
+        <img class="logo-crest" src="./img/icons/logo-crest.svg"
+             alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/logo-crest.svg">
+    </div>
+</section>
+
+<!-- Slide Menu -->
+<section class="slide-menu slide-menu-no-width" id="slide-menu">
+    <nav>
+        <div class="slide-menu__nav">
+            <!-- Close Slide Menu Button: Left side of nav -->
+            <button style="background-color: rgba(0, 0, 0, 0);" class="hamburger-button"
                     id="close-menu-button" onclick="hideSlideMenu()">
-                    <img id="close-icon" class="hamburger-icon slide-menu__hamburger-icon" src="./img/icons/menu-hamburger-close.svg"
-                         alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/hamburger-close.svg">
-                </button>
-                
-                <div style="background-color: rgba(0, 0, 0, 0);"></div>
-                    
-                <button id="slide-menu__princeton-logo" style="background-color: rgba(0, 0, 0, 0);" class="logo">
-                    <img src="./img/icons/logo.svg" class="logo__image" onclick="princetonLogo_OnClick()"
-                         alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/logo.svg">
-                </button>
-            </div>
-        </nav>
+                <img id="close-icon" class="hamburger-icon slide-menu__hamburger-icon" src="./img/icons/menu-hamburger-close.svg"
+                     alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/hamburger-close.svg">
+            </button>
+
+            <div style="background-color: rgba(0, 0, 0, 0);"></div>
+
+            <button id="slide-menu__princeton-logo" style="background-color: rgba(0, 0, 0, 0);" class="logo">
+                <img src="./img/icons/logo.svg" class="logo__image" onclick="princetonLogo_OnClick()"
+                     alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/logo.svg">
+            </button>
+        </div>
+    </nav>
+</section>
+
+<article id="article">
+    <section class="block-a">
+        <div class="block-a__col-1">
+            <img src="./img/icons/why_eke.svg" height="450px"
+                 alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/why_eke.svg">
+        </div>
+        <div class="block-a__col-2">
+            <img class="hitler-img-that-bitch" src="./img/stock/hitler.jpg"
+                 alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/stock/hitler.jpg">
+        </div>
+        <div class="block-a__col-3">
+            <h1>Adolf Hitler, von 1933 bis 1945 der Diktator des Duetschen Reiches war.</h1>
+            <h2>Ab Juli 1921 Parteivorsitzender der Nationalsozialistischen Deutschen Arbeiterpartei (NSDAP), versuchte er im November 1923 mit einem Putsch von München aus die Weimarer Republik zu stürzen.</h2>
+            <img src="./img/stock/hitler.jpg" class="hitler-sm"
+                 alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/stock/hitler.jpg">
+        </div>
+        <div class="block-a__col-4"></div>
     </section>
+    <section class="block-b">
+        <div class="block-b__col-1"></div>
+        <div class="block-b__col-2">
+            <h1>Oberkommando der Wehrmacht</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, incidunt.</h4>
+            <div><iframe src="./wehrmacht.html"></iframe></div>
+        </div>
+        <div class="block-b__col-3"></div>
+    </section>
+    <section class="block-c"></section>
+    <section class="block-d"></section>
 
-    <article id="article">
-        <section class="block-a">
-            <div class="block-a__col-1">
-                <img src="./img/icons/why_eke.svg" height="450px"
-                     alt="https://raw.githubusercontent.com/praantosamadder/ekeducation/main/img/icons/why_eke.svg">
-            </div>
-            <div class="block-a__col-2">
-                <img class="hitler-img-that-bitch" src="./img/stock/hitler.jpg" alt="">
-            </div>
-            <div class="block-a__col-3">
-                <h1>Adolf Hitler, von 1933 bis 1945 der Diktator des Duetschen Reiches war.</h1>
-                <h2>Ab Juli 1921 Parteivorsitzender der Nationalsozialistischen Deutschen Arbeiterpartei (NSDAP), versuchte er im November 1923 mit einem Putsch von München aus die Weimarer Republik zu stürzen.</h2>
-                <img src="./img/stock/hitler.jpg" class="hitler-sm">
-            </div>
-            <div class="block-a__col-4"></div>
-        </section>
-        <section class="block-b">
-            <div class="block-b__col-1"></div>
-            <div class="block-b__col-2">
-                <h1>Oberkommando der Wehrmacht</h1>
-                
-                <div><iframe src="./wehrmacht.html"></iframe></div>
-            </div>
-            <div class="block-b__col-3"></div>
-        </section>
-        <section class="block-c" id="icon"></section>
-        <section class="block-d"></section>
+    <footer></footer>
+</article>
 
-        <footer></footer>
-    </article>
-
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
 
-    <!-- PopperJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+<!-- PopperJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    
-    <!-- Bootstrap::JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+
+<!-- Bootstrap::JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- AppScript -->
-    <script src="./js/script.js"></script>
+<!-- AppScript -->
+<script src="./js/script.js"></script>
 </body>
 </html>
